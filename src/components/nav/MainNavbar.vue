@@ -1,4 +1,4 @@
-<script>
+<script setup lang="ts">
 </script>
 
 <template>
@@ -15,7 +15,7 @@
 
     <div class="navbar__buttons">
         <button class="navbar__buttons__item lang">
-            <img src="../../assets/img/united kingdom.svg">
+            <img src="../../assets/img/united-kingdom.svg">
         </button>
         <button class="navbar__buttons__item action">Let’s work</button>
     </div>

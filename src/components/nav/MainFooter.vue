@@ -1,7 +1,4 @@
-<script>
-export default {
-
-}
+<script setup lang="ts">
 </script>
 
 <template>
@@ -26,7 +23,7 @@ export default {
                     <div class="info__block__title">Office in Russia</div>
                     <div class="info__block__deskr">139 Ruben Station Lake Drew, NM 52678</div>
                     <div class="info__block__img">
-                        <img src="../../assets/img/button location.svg">
+                        <img src="../../assets/img/button-location.svg">
                     </div>
                 </div>
 
@@ -34,7 +31,7 @@ export default {
                     <div class="info__block__title">Office in Dubai</div>
                     <div class="info__block__deskr">139 Ruben Station Lake Drew, NM 52678</div>
                     <div class="info__block__img">
-                        <img src="../../assets/img/button location.svg">
+                        <img src="../../assets/img/button-location.svg">
                     </div>
                 </div>
 

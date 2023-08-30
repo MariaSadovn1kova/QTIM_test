@@ -3,10 +3,25 @@ import { useRoute } from "vue-router";
 import { onBeforeMount, ref } from 'vue';
 import { useArticleStore } from '../stores/article_store';
 
+interface Article {
+  id: number;
+  image: string;
+  preview: string, 
+  title: string,
+  description: string
+}
+let defautAcrticle: Article = {
+    id: 0, 
+    image: "", 
+    preview: "",
+    title: "",
+    description: ""
+}
+
 const route = useRoute();
 const idArticle = Number(route.params.id);
 const articleStore = useArticleStore();
-const article = ref(null);
+const article = ref(defautAcrticle);
 const loading = ref(true);
 
 onBeforeMount(async () => { 

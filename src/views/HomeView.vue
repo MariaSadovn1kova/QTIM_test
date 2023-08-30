@@ -61,7 +61,7 @@ onBeforeMount(async () => {
     </div>
 
     <div class="articles__pagination">
-      <div v-for="page in pageCount()" :key="page.id" class="articles__pagination__item" :class="{'active': page == pageNumber + 1}" @click="setPage(page - 1)">{{ page }}</div>
+      <div v-for="page in pageCount()" :key="page" class="articles__pagination__item" :class="{'active': page == pageNumber + 1}" @click="setPage(page - 1)">{{ page }}</div>
       <div @click="setPage(pageNumber + 1)" class="articles__pagination__item">></div>
     </div>
 
