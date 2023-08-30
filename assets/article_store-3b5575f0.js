@@ -1,1 +1,0 @@
-import{i as o}from"./index-b5afd8fe.js";const i=o("acticle",()=>{async function e(){return await(await fetch("https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts/")).json()}async function a(t){return await(await fetch("https://6082e3545dbd2c001757abf5.mockapi.io/qtim-test-work/posts/"+t)).json()}return{getArticles:e,getOneArticle:a}});export{i as u};
