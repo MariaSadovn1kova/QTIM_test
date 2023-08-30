@@ -74,6 +74,7 @@
             &.action{
                 background-color: var(--black);
                 color: var(--white);
+                padding: 0 0 4px 0;
                 height: 52px;
                 width: 142px;
                 border-radius: 50px;
